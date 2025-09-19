@@ -9,7 +9,10 @@ Aplicativo mobile desenvolvido como parte da **Sprint 3**.
 O projeto foi feito com **React Native + TypeScript** e possui fluxo completo de autenticação, registro, listagem e edição de usuários, utilizando `AsyncStorage` como persistência local.
 
 ---
-
+## Integrantes
+- Eric de Carvalho Rodrigues - RM550249
+- Victoria Franseschini Pizza - RM5550609
+---
 ## 🚀 Funcionalidades
 
 - **Login de usuário** com validação de e-mail e senha.

@@ -62,3 +62,55 @@ AppNome/
 │   └── app.tsx              # Composição do app (estado de rotas)
 ├── App.tsx                  # Reexporta src/app.tsx
 └── package.json
+
+🛠️ Tecnologias
+
+- React Native
+- TypeScript
+- AsyncStorage
+- Context API (roteador customizado)
+- Expo (facilita rodar no emulador ou device físico)
+
+▶️ Como rodar o projeto
+1. Clonar o repositório
+git clone https://github.com/seu-usuario/AppNome.git
+cd AppNome
+
+2. Instalar dependências
+npm install
+# ou
+yarn install
+
+3. Rodar no Expo
+npx expo start
+
+👤 Usuários e Sessão
+
+Os usuários são salvos em AsyncStorage (JSON).
+
+A sessão atual também é persistida.
+
+Estrutura de usuário (User):
+
+type User = {
+  id: string;
+  name: string;
+  email: string;
+  password: string;
+  avatarUrl?: string;
+  createdAt: number;
+  updatedAt: number;
+};
+
+📌 Próximos Passos
+
+ - Implementar upload de avatar (imagem local).
+ - Melhorar design (inputs com labels e feedback de erro).
+ - Adicionar testes unitários.
+ - Migrar para expo-router.
+
+📄 Licença
+
+Este projeto é de uso acadêmico.
+Sinta-se à vontade para adaptar e evoluir.
+

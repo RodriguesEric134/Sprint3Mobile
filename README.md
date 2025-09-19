@@ -11,7 +11,7 @@ O projeto foi feito com **React Native + TypeScript** e possui fluxo completo de
 ---
 ## Integrantes
 - Eric de Carvalho Rodrigues - RM550249
-- Victoria Franseschini Pizza - RM5550609
+- Victoria Franceschini Pizza - RM5550609
 ---
 ## 🚀 Funcionalidades
 

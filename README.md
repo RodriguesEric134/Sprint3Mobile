@@ -62,7 +62,7 @@ AppNome/
 │   └── app.tsx              # Composição do app (estado de rotas)
 ├── App.tsx                  # Reexporta src/app.tsx
 └── package.json
-
+```
 🛠️ Tecnologias
 
 - React Native

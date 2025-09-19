@@ -73,17 +73,21 @@ AppNome/
 
 ▶️ Como rodar o projeto
 1. Clonar o repositório
-git clone https://github.com/seu-usuario/AppNome.git
+git clone https://github.com/RodriguesEric134/Sprint3Mobile.git
 cd AppNome
 
 2. Instalar dependências
+```bash
 npm install
+```
 # ou
+```bash
 yarn install
-
+```
 3. Rodar no Expo
+```bash
 npx expo start
-
+```
 👤 Usuários e Sessão
 
 Os usuários são salvos em AsyncStorage (JSON).
@@ -91,7 +95,7 @@ Os usuários são salvos em AsyncStorage (JSON).
 A sessão atual também é persistida.
 
 Estrutura de usuário (User):
-
+```bash
 type User = {
   id: string;
   name: string;
@@ -101,7 +105,7 @@ type User = {
   createdAt: number;
   updatedAt: number;
 };
-
+```
 📌 Próximos Passos
 
  - Implementar upload de avatar (imagem local).

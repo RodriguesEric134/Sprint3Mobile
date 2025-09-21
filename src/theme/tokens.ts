@@ -16,7 +16,7 @@ export const DANGER = '#e74c3c';
 
 // Recursos fixos
 export const DEFAULT_AVATAR =
-  'https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_960_720.png';
+  'https://cdn.pixabay.com/photo/2025/09/15/02/53/shark-9835151_1280.png';
 
 // Chaves de storage
 export const USERS_KEY = 'APP_USERS_V1'; // altere este valor se quiser resetar rapidamente o storage
